@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NewsData {
-    
+
     @SerializedName("articles")
     @Expose
     private List<Articles> articles = new ArrayList<>();
@@ -19,5 +19,5 @@ public class NewsData {
     public void setArticles(List<Articles> articles) {
         this.articles = articles;
     }
-    
+
 }
